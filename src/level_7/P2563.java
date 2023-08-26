@@ -16,6 +16,7 @@ public class P2563 {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int x = Integer.parseInt(st.nextToken());
             int y = Integer.parseInt(st.nextToken());
+
             for (int j = y; j < y + 10; j++) {
                 for (int k = x; k < x + 10; k++) {
                     if (!paper[j][k]) {
