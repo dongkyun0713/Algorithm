@@ -1,4 +1,4 @@
-package level_9;
+package bronze_3;
 
 import java.io.BufferedReader;
 import java.io.IOException;

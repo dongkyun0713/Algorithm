@@ -1,4 +1,4 @@
-package level_7;
+package bronze_1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,11 +1,11 @@
-package level_8;
+package bronze_2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 // 벌집
 // https://www.acmicpc.net/problem/2292
-public class B2262 {
+public class B2292 {
     public static void main(String[] args)throws IOException {
         BufferedReader br =new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
