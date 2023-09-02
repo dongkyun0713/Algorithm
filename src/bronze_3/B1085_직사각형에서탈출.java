@@ -13,5 +13,15 @@ public class B1085_직사각형에서탈출 {
         int w = Integer.parseInt(input[2]);
         int h = Integer.parseInt(input[3]);
 
+        int a = w-x;
+        int b = h-y;
+        int min = x;
+
+        if(min > y) min = y;
+        if(min > a) min = a;
+        if(min > b) min = b;
+
+        System.out.println(min);
+
     }
 }
