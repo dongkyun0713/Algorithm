@@ -4,12 +4,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class B24265_알고리즘수행시간4 {
+public class B24266_알고리즘의수행시간5 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        long n = Integer.parseInt(br.readLine());
-
-        System.out.println(n*(n-1)/2);
-        System.out.print(2);
+        long n = Long.parseLong(br.readLine());
+        System.out.println(n*n*n);
+        System.out.println(3);
     }
 }
