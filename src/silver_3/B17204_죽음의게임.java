@@ -11,7 +11,19 @@ public class B17204_죽음의게임 {
         String input[] = br.readLine().split(" ");
         int N = Integer.parseInt(input[0]);
         int K = Integer.parseInt(input[1]);
+        int count = 0;
+        int arr[] = new int[N];
+        for(int i = 0; i < N; i++) {
+            arr[i] = Integer.parseInt(br.readLine());
+        }
 
-
+        for(int i = 0; count < N; i= arr[i]){
+            count++;
+            if(arr[i] == K) {
+                System.out.println(count);
+                break;
+            }
+        }
+        if(count == N) System.out.println(-1);
     }
 }
