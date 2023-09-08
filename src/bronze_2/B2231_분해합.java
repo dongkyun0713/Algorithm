@@ -9,13 +9,17 @@ public class B2231_분해합 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int sum = 0;
-        for(int i = 1; i < n; i++){
-            int x = (int) Math.pow(10, (int)( Math.log10(i)+1 ));
-            sum += i;
-            for(int j = 0; j < x; j++){
-                sum += i % (int) Math.pow(10, j);
+        int answer = 0;
+            for (int i = 0; i < n; i++) {
+                answer = i;
+                sum = i;
+                for(;i > 0;i /= 10){
+                    sum += n%10;
+                }
+                if (sum == n) break;
+                answer = 0;
             }
-            if(sum == n) break;
-        }
+
+        System.out.println(answer);
     }
 }
