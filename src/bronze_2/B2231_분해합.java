@@ -8,16 +8,20 @@ public class B2231_분해합 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
-        int sum = 0;
         int answer = 0;
+
             for (int i = 0; i < n; i++) {
-                answer = i;
-                sum = i;
-                for(;i > 0;i /= 10){
+                int num = i;
+                int sum = 0;
+                while(num != 0){
                     sum += n%10;
+                    num /= 10;
                 }
-                if (sum == n) break;
-                answer = 0;
+                if(sum + i == n){
+                    answer = i;
+                    break;
+                }
+
             }
 
         System.out.println(answer);

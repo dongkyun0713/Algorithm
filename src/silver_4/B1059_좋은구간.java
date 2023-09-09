@@ -20,7 +20,6 @@ public class B1059_좋은구간 {
         int n = Integer.parseInt(br.readLine());
         int count = 0;
         for(int i = 0; i < L; i++) {
-
             int a = arr[i];
             int b = arr[i+1];
             if(n > a && n < b) {
