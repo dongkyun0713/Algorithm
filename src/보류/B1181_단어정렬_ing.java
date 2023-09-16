@@ -1,4 +1,4 @@
-package silver_5;
+package 보류;
 
 import java.io.BufferedReader;
 import java.io.IOException;
