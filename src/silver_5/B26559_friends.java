@@ -22,8 +22,13 @@ public class B26559_friends {
             }
             List<Integer> list = new ArrayList<>(map.keySet());
             list.sort(Integer::compareTo);
-            for(int j = 0; j < m; j++) {
-                System.out.print(map.get(list.get(j)) + " ");
+            for(int j = m-1; j >= 0; j--) {
+                if(j==0) {
+                    System.out.println(map.get(list.get(j)));
+                    break;
+                }
+                System.out.print(map.get(list.get(j)) + ", ");
+
             }
         }
         System.out.println();
