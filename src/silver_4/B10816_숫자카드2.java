@@ -12,26 +12,22 @@ public class B10816_숫자카드2 {
         String input[] = br.readLine().split(" ");
         Map<Integer, Integer> map = new HashMap<>();
 
-        List<Integer> list = new ArrayList<>();
         for(int  i = 0; i < n; i++) {
-            list.add(Integer.parseInt(input[i]));
+            int k = Integer.parseInt(input[i]);
+            map.put(k, map.getOrDefault(k, 0) + 1);
         }
-        Collections.sort(list);
-        int count = 0;
-        for(int i = 1; i < n; i++) {
-            if(Objects.equals(list.get(i - 1), list.get(i))) {
-                count++;
-            }
-            else{
-                map.put(list.get(i), count);
-                count = 0;
-            }
-        }
+
         int m = Integer.parseInt(br.readLine());
+
+        StringBuilder sb = new StringBuilder();
         String input2[] = br.readLine().split(" ");
-        for(int i = 0; i < m; i++) {
-            int card = Integer.parseInt(input2[i]);
-            System.out.println(map.get(card));
+
+
+        for(int i = 0; i < m; i++){
+            int k = Integer.parseInt(input2[i]);
+            sb.append(map.getOrDefault(k, 0)).append(' ');
         }
+
+        System.out.println(sb);
     }
 }
