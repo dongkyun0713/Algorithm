@@ -18,12 +18,12 @@ public class B1002_터렛 {
         T = Integer.parseInt(br.readLine());
         for (int i = 0; i < T; i++) {
             StringTokenizer tokenizer = new StringTokenizer(br.readLine());
-            int x1 = Integer.parseInt(tokenizer.nextToken());
-            int y1 = Integer.parseInt(tokenizer.nextToken());
-            int r1 = Integer.parseInt(tokenizer.nextToken());
-            int x2 = Integer.parseInt(tokenizer.nextToken());
-            int y2 = Integer.parseInt(tokenizer.nextToken());
-            int r2 = Integer.parseInt(tokenizer.nextToken());
+           x1 = Integer.parseInt(tokenizer.nextToken());
+           y1 = Integer.parseInt(tokenizer.nextToken());
+           r1 = Integer.parseInt(tokenizer.nextToken());
+           x2 = Integer.parseInt(tokenizer.nextToken());
+           y2 = Integer.parseInt(tokenizer.nextToken());
+           r2 = Integer.parseInt(tokenizer.nextToken());
 
             R = (x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1);
 
