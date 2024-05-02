@@ -9,7 +9,6 @@ public class B1002_터렛 {
     static int T;
     static int x1, y1, r1, x2, y2, r2;
     static int R;
-
     static int rs, rd;
 
     public static void main(String[] args) throws IOException {
@@ -18,12 +17,12 @@ public class B1002_터렛 {
         T = Integer.parseInt(br.readLine());
         for (int i = 0; i < T; i++) {
             StringTokenizer tokenizer = new StringTokenizer(br.readLine());
-           x1 = Integer.parseInt(tokenizer.nextToken());
-           y1 = Integer.parseInt(tokenizer.nextToken());
-           r1 = Integer.parseInt(tokenizer.nextToken());
-           x2 = Integer.parseInt(tokenizer.nextToken());
-           y2 = Integer.parseInt(tokenizer.nextToken());
-           r2 = Integer.parseInt(tokenizer.nextToken());
+            x1 = Integer.parseInt(tokenizer.nextToken());
+            y1 = Integer.parseInt(tokenizer.nextToken());
+            r1 = Integer.parseInt(tokenizer.nextToken());
+            x2 = Integer.parseInt(tokenizer.nextToken());
+            y2 = Integer.parseInt(tokenizer.nextToken());
+            r2 = Integer.parseInt(tokenizer.nextToken());
 
             R = (x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1);
 
