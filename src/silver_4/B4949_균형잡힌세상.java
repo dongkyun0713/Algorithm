@@ -1,8 +1,10 @@
 package silver_4;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.HashMap;
@@ -11,18 +13,19 @@ import java.util.Map;
 public class B4949_균형잡힌세상 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
         while (true) {
             String s = br.readLine();
             if (s.equals(".")) {
                 break;
-            } else {
-                if (isValid(s)) {
-                    System.out.println("yes");
-                } else {
-                    System.out.println("no");
-                }
             }
+            bw.write(isValid(s) ? "yes" : "no");
+            bw.newLine();
         }
+        bw.flush();
+        br.close();
+        bw.close();
     }
 
     public static boolean isValid(String s) {
