@@ -10,6 +10,9 @@ public class B1000 {
         int a = Integer.parseInt(br.readLine());
         int b = Integer.parseInt(br.readLine());
 
-        System.out.print(a + b);
+        StringBuilder sb = new StringBuilder();
+        int sum = a+b;
+        sb.append(sum);
+        System.out.println(sum);
     }
 }
