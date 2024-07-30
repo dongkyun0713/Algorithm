@@ -19,6 +19,7 @@ public class B4101 {
                 sb.append("No\n");
             }
         }
+
         System.out.print(sb);
     }
 }
