@@ -13,6 +13,7 @@ public class B4101 {
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
             if (a == 0 && b == 0) break;  //a, b 둘다 0이면 loop 종료
+
             if (a > b) {
                 sb.append("Yes\n");
             } else {
