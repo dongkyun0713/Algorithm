@@ -10,6 +10,7 @@ public class B27323_직사각형 {
 
         int A = Integer.parseInt(br.readLine());
         int B = Integer.parseInt(br.readLine());
+
         System.out.println(A*B);
     }
 }
