@@ -26,7 +26,7 @@ public class B15649_N과M {
 
     public static void dfs(int depth) {
         if (depth == m) {
-            for(int k : arr) {
+            for (int k : arr) {
                 sb.append(k).append(" ");
             }
             sb.append("\n");
