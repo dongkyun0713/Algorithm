@@ -1,6 +1,4 @@
-package level_3;
-
-import java.util.Queue;
+package programmers.level_3;
 
 public class P49189 {
     public int solution(int n, int[][] edge) {
