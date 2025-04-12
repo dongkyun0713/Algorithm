@@ -1,7 +1,4 @@
-package chapter8;
-
-import java.math.BigInteger;
-
+package leetcode;
 // 문제 : 역순으로 저장된 연결리스트의 숫자를 더하라.
 // 입력 : (2 -> 4 -> 3) + ( 5 -> 6 ->2)
 // 출력 : 7 -> 0 -> 6
@@ -9,7 +6,7 @@ import java.math.BigInteger;
 public class AddTwoNumbers {
 
 
-    public static ListNode addTwoNumbers(ListNode list1, ListNode list2) {
+/*    public static ListNode addTwoNumbers(ListNode list1, ListNode list2) {
         ListNode listNode = new ListNode(0);
         ListNode current = listNode;
         int carry = 0;
@@ -38,5 +35,5 @@ public class AddTwoNumbers {
         }
 
         return listNode.next;
-    }
+    }*/
 }
