@@ -17,7 +17,6 @@ public class B2805 {
 
         trees = new int[N];
 
-        st = new StringTokenizer(br.readLine());
         int right = 0;
         for (int i = 0; i < N; i++) {
             int h = Integer.parseInt(st.nextToken());
