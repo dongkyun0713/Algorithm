@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class P2343 {
+public class B2343 {
     static int N, M;
     static int[] lectures;
 
