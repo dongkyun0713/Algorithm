@@ -1,7 +1,7 @@
 # 📌 DP(Dynamic Programming) 문제 체크리스트
 
 ## ✔ 기본 DP
-- [ ] [1463 — 1로 만들기](https://www.acmicpc.net/problem/1463)
+- [x] [1463 — 1로 만들기](https://www.acmicpc.net/problem/1463)
 - [ ] [11726 — 2×N 타일링](https://www.acmicpc.net/problem/11726)
 - [ ] [11727 — 2×N 타일링 2](https://www.acmicpc.net/problem/11727)
 - [ ] [9095 — 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
