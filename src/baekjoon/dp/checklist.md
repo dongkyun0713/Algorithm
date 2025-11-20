@@ -3,7 +3,7 @@
 ## ✔ 기본 DP
 - [x] [1463 — 1로 만들기](https://www.acmicpc.net/problem/1463)
 - [x] [11726 — 2×N 타일링](https://www.acmicpc.net/problem/11726)
-- [ ] [11727 — 2×N 타일링 2](https://www.acmicpc.net/problem/11727)
+- [x] [11727 — 2×N 타일링 2](https://www.acmicpc.net/problem/11727)
 - [ ] [9095 — 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 - [ ] [1699 — 제곱수의 합](https://www.acmicpc.net/problem/1699)
 - [ ] [2133 — 타일 채우기](https://www.acmicpc.net/problem/2133)
