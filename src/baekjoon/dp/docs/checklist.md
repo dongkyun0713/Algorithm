@@ -7,7 +7,7 @@
 - [x] [9095 — 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 - [x] [1699 — 제곱수의 합](https://www.acmicpc.net/problem/1699)
 - [x] [2133 — 타일 채우기](https://www.acmicpc.net/problem/2133)
-- [ ] [11052 — 카드 구매하기](https://www.acmicpc.net/problem/11052)
+- [x] [11052 — 카드 구매하기](https://www.acmicpc.net/problem/11052)
 
 ## ✔ 수열 DP
 - [ ] [1912 — 연속합](https://www.acmicpc.net/problem/1912)
