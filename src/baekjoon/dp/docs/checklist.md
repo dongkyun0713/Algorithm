@@ -17,9 +17,9 @@
 - [ ] [11054 — 가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)
 
 ## ✔ 계단/스티커/포도주 DP
-- [ ] [2579 — 계단 오르기](https://www.acmicpc.net/problem/2579)
+- [x] [2579 — 계단 오르기](https://www.acmicpc.net/problem/2579)
 - [ ] [9465 — 스티커](https://www.acmicpc.net/problem/9465)
-- [ ] [2156 — 포도주 시식](https://www.acmicpc.net/problem/2156)
+- [x] [2156 — 포도주 시식](https://www.acmicpc.net/problem/2156)
 
 ## ✔ 자리수 DP
 - [ ] [10844 — 쉬운 계단 수](https://www.acmicpc.net/problem/10844)
