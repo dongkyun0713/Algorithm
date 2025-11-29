@@ -11,14 +11,14 @@
 
 ## ✔ 수열 DP
 - [ ] [1912 — 연속합](https://www.acmicpc.net/problem/1912)
-- [ ] [11053 — 가장 긴 증가하는 부분 수열 (LIS)](https://www.acmicpc.net/problem/11053)
-- [ ] [11055 — 가장 큰 증가 부분 수열](https://www.acmicpc.net/problem/11055)
-- [ ] [11722 — 가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
+- [x] [11053 — 가장 긴 증가하는 부분 수열 (LIS)](https://www.acmicpc.net/problem/11053)
+- [x] [11055 — 가장 큰 증가 부분 수열](https://www.acmicpc.net/problem/11055)
+- [x] [11722 — 가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
 - [ ] [11054 — 가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054)
 
 ## ✔ 계단/스티커/포도주 DP
 - [x] [2579 — 계단 오르기](https://www.acmicpc.net/problem/2579)
-- [ ] [9465 — 스티커](https://www.acmicpc.net/problem/9465)
+- [x] [9465 — 스티커](https://www.acmicpc.net/problem/9465)
 - [x] [2156 — 포도주 시식](https://www.acmicpc.net/problem/2156)
 
 ## ✔ 자리수 DP
