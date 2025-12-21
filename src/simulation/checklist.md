@@ -6,7 +6,7 @@
   [https://www.acmicpc.net/problem/14503](https://www.acmicpc.net/problem/14503)
   → 방향 전환 + 상태 변화 구현
 
-* [ ] **1966 — 프린터 큐**
+* [x] **1966 — 프린터 큐**
   [https://www.acmicpc.net/problem/1966](https://www.acmicpc.net/problem/1966)
   → 큐 시뮬레이션, 조건 분기
 
