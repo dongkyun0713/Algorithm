@@ -10,7 +10,7 @@
   [https://www.acmicpc.net/problem/1966](https://www.acmicpc.net/problem/1966)
   → 큐 시뮬레이션, 조건 분기
 
-* [ ] **13335 — 트럭**
+* [x] **13335 — 트럭**
   [https://www.acmicpc.net/problem/13335](https://www.acmicpc.net/problem/13335)
   → 시간 흐름 시뮬레이션
 
