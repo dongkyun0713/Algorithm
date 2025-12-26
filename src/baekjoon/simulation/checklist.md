@@ -14,7 +14,7 @@
   [https://www.acmicpc.net/problem/13335](https://www.acmicpc.net/problem/13335)
   → 시간 흐름 시뮬레이션
 
-* [ ] **14719 — 빗물**
+* [x] **14719 — 빗물**
   [https://www.acmicpc.net/problem/14719](https://www.acmicpc.net/problem/14719)
   → 상태 관찰 기반 시뮬레이션
 
@@ -22,7 +22,7 @@
 
 ## ✔ 격자(Grid) 시뮬레이션
 
-* [ ] **3190 — 뱀**
+* [x] **3190 — 뱀**
   [https://www.acmicpc.net/problem/3190](https://www.acmicpc.net/problem/3190)
   → 방향, 충돌, 시간 흐름
 
