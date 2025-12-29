@@ -2,7 +2,7 @@
 
 ## ✔ 기본 완전탐색 / 시뮬레이션 / 브루트포스
 
-* [ ] **1476 — 날짜 계산**
+* [x] **1476 — 날짜 계산**
   [https://www.acmicpc.net/problem/1476](https://www.acmicpc.net/problem/1476)
 * [ ] **1107 — 리모컨**
   [https://www.acmicpc.net/problem/1107](https://www.acmicpc.net/problem/1107)
