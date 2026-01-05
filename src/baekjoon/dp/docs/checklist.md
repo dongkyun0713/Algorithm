@@ -24,7 +24,7 @@
 ## ✔ 자리수 DP
 - [ ] [10844 — 쉬운 계단 수](https://www.acmicpc.net/problem/10844)
 - [ ] [11057 — 오르막 수](https://www.acmicpc.net/problem/11057)
-- [ ] [2193 — 이친수](https://www.acmicpc.net/problem/2193)
+- [x] [2193 — 이친수](https://www.acmicpc.net/problem/2193)
 
 ## ✔ 구간/조합 DP
 - [ ] [2225 — 합분해](https://www.acmicpc.net/problem/2225)
